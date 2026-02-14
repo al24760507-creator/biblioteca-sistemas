@@ -11,7 +11,4 @@ Este proyecto nace de la necesidad de reducir la pérdida de ejemplares físicos
 * **Diseño:** Modelo Entidad-Relación (E-R)
 * **Documentación:** Markdown
 
-##  Modelo Entidad-Relación
-Aquí se detalla la lógica de los datos:
-* **Entidades:** Usuario, Libro, Préstamo.
-* **Relaciones:** Un Usuario realiza N Préstamos; un Préstamo incluye N Libros.
+
