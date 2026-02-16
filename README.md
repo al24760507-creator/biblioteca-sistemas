@@ -8,3 +8,51 @@ La gestión manual de inventarios y préstamos suele derivar en pérdida de info
 Optimizar el tiempo: Automatizar el registro de entradas y salidas.
 Centralización: Tener una base de datos única para evitar duplicidades en el catálogo.
 Accesibilidad: Permitir que los bibliotecarios visualicen de forma rápida qué ejemplares están disponibles y quiénes tienen libros en mora.
+# 📚 Sistema de Biblioteca Virtual (Examen)
+
+## 1. Título
+**BiblioTech: Gestión Integral de Catálogo y Usuarios**
+
+## 2. Descripción
+Este proyecto consiste en el diseño de una base de datos relacional para administrar una biblioteca virtual. El sistema permite el registro de autores, la catalogación de libros y el control de préstamos realizados por los usuarios, garantizando la integridad de los datos y la trazabilidad de cada ejemplar.
+
+## 3. Motivación
+La principal motivación de este desarrollo es resolver los problemas de pérdida de stock y falta de control en las fechas de devolución que ocurren en sistemas manuales. Con este diseño se busca:
+* Centralizar la información de los libros y sus autores.
+* Monitorear en tiempo real quién tiene cada libro.
+* Facilitar la expansión del catálogo de forma organizada.
+
+## 4. Diagrama Entidad-Relación (E-R)
+Este diagrama representa la lógica del negocio y cómo interactúan las entidades principales mediante llaves primarias y foráneas.
+
+
+
+```mermaid
+erDiagram
+    USUARIO ||--o{ PRESTAMO : "realiza"
+    LIBRO ||--o{ PRESTAMO : "es prestado"
+    AUTOR ||--o{ LIBRO : "escribe"
+
+    USUARIO {
+        int id_usuario PK
+        string nombre
+        string email
+    }
+    LIBRO {
+        int id_libro PK
+        string titulo
+        string isbn
+        int id_autor FK
+    }
+    AUTOR {
+        int id_autor PK
+        string nombre
+        string nacionalidad
+    }
+    PRESTAMO {
+        int id_prestamo PK
+        date fecha_salida
+        date fecha_devolucion
+        int id_usuario FK
+        int id_libro FK
+    }
