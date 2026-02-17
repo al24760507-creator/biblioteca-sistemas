@@ -24,35 +24,77 @@ La principal motivación de este desarrollo es resolver los problemas de pérdid
 
 ## 4. Diagrama Entidad-Relación (E-R)
 Este diagrama representa la lógica del negocio y cómo interactúan las entidades principales mediante llaves primarias y foráneas.
-
-
-
-```mermaid
 erDiagram
-    USUARIO ||--o{ PRESTAMO : "realiza"
-    LIBRO ||--o{ PRESTAMO : "es prestado"
-    AUTOR ||--o{ LIBRO : "escribe"
+    USUARIO ||--o{ PRESTAMO : realiza
+    LIBRO ||--o{ PRESTAMO : incluye
+    CATEGORIA ||--o{ LIBRO : clasifica
 
     USUARIO {
         int id_usuario PK
         string nombre
         string email
+        string telefono
     }
+
     LIBRO {
         int id_libro PK
         string titulo
+        string autor
         string isbn
-        int id_autor FK
+        int stock
+        int id_categoria FK
     }
-    AUTOR {
-        int id_autor PK
-        string nombre
-        string nacionalidad
-    }
+
     PRESTAMO {
         int id_prestamo PK
-        date fecha_salida
-        date fecha_devolucion
         int id_usuario FK
         int id_libro FK
+        date fecha_salida
+        date fecha_devolucion
+        string estado
     }
+
+    CATEGORIA {
+        int id_categoria PK
+        string nombre
+        string descripcion
+    }
+    classDiagram
+    class Usuario {
+        +int id_usuario
+        +string nombre
+        +string email
+        -string password
+        +registrar()
+        +iniciarSesion()
+    }
+
+    class Libro {
+        +int id_libro
+        +string titulo
+        +string autor
+        +string isbn
+        +bool disponibilidad
+        +actualizarStock()
+    }
+
+    class Prestamo {
+        +int id_prestamo
+        +date fecha_inicio
+        +date fecha_fin
+        +string estado
+        +generarMulta()
+        +finalizarPrestamo()
+    }
+
+    class Categoria {
+        +int id_categoria
+        +string nombre
+        +obtenerLibros()
+    }
+
+    Usuario "1" --> "*" Prestamo : solicita
+    Libro "1" -- "*" Prestamo : es_prestado
+    Categoria "1" -- "*" Libro : contiene
+
+|
