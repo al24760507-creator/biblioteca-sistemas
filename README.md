@@ -13,4 +13,4 @@ La principal motivación de este desarrollo es resolver los problemas de pérdid
 
 Aquí puedes ver el diseño de la base de datos:
 
-diagrama ER/img/Captura de pantalla 2026-02-16 152135.png.png
+diagrama ER./img/Captura de pantalla 2026-02-16 152135.png
