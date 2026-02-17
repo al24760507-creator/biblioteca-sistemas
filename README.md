@@ -11,7 +11,12 @@ La principal motivación de este desarrollo es resolver los problemas de pérdid
 
 ## 4. Diagrama Entidad-Relación (E-R)
 Este diagrama representa la lógica del negocio y cómo interactúan las entidades principales mediante llaves primarias y foráneas.
-Ndiagrama ER./img/Captura de pantalla 2026-02-16 152135.png
-# DIAGRAMA UML 
+# Mis Diagramas del Proyecto
 
+Aquí puedes ver el diseño de la base de datos:
+diagrama ER./img/Captura de pantalla 2026-02-16 152135.png
+
+# Mis Diagramas del Proyecto
+
+Aquí puedes ver el diseño de la base de datos:
 diagrama en UML./img/Captura de pantalla 2026-02-17 133315.png.png
