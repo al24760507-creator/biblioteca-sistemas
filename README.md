@@ -12,5 +12,8 @@ La principal motivación de este desarrollo es resolver los problemas de pérdid
 # Mis Diagramas del Proyecto
 Aquí puedes ver el diseño de la base de datos:
 
-diagrama./img/Captura de pantalla 2026-02-16 152135.png
-diagrama uml/img/Captura de pantalla 2026-02-17 133315.png
+### Diagrama Entidad-Relación
+![Diagrama ER](./img/Captura%20de%20pantalla%202026-02-16%20152135.png)
+
+### Diagrama UML
+![Diagrama UML](./img/Captura%20de%20pantalla%202026-02-17%20133315.png)
