@@ -15,4 +15,4 @@ Este diagrama representa la lógica del negocio y cómo interactúan las entidad
 
 Aquí puedes ver el diseño de la base de datos:
 
-![Nombre Alternativo](./img/captura-de-pantalla.png)
+![Ndiagrama ER ](./img/Captura de pantalla 2026-02-16 152135.png)
