@@ -9,7 +9,5 @@ La principal motivación de este desarrollo es resolver los problemas de pérdid
 * Monitorear en tiempo real quién tiene cada libro.
 * Facilitar la expansión del catálogo de forma organizada.
 # Mis Diagramas del Proyecto
-
 Aquí puedes ver el diseño de la base de datos:
-
 diagram ER./img/ptura de pantalla 2026-02-16 152135.png
