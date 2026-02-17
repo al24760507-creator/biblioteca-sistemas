@@ -10,4 +10,4 @@ La principal motivación de este desarrollo es resolver los problemas de pérdid
 * Facilitar la expansión del catálogo de forma organizada.
 # Mis Diagramas del Proyecto
 Aquí puedes ver el diseño de la base de datos:
-diagrama./img/nombre-de-tu-archivo.png)
+diagrama./img/Captura de pantalla 2026-02-16 152135.png
