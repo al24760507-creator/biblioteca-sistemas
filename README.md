@@ -1,19 +1,48 @@
-**BiblioTech: Gestión Integral de Catálogo y Usuarios**
+# 📚 BiblioTech: Gestión Integral de Catálogo y Usuarios
 
-## 2. Descripción
-Este proyecto consiste en el diseño de una base de datos relacional para administrar una biblioteca virtual. El sistema permite el registro de autores, la catalogación de libros y el control de préstamos realizados por los usuarios, garantizando la integridad de los datos y la trazabilidad de cada ejemplar.
+¡Bienvenido a **BiblioTech**! Una solución robusta diseñada para transformar la administración de bibliotecas físicas en un entorno digital eficiente.
 
-## 3. Motivación
-La principal motivación de este desarrollo es resolver los problemas de pérdida de stock y falta de control en las fechas de devolución que ocurren en sistemas manuales. Con este diseño se busca:
-* Centralizar la información de los libros y sus autores.
-* Monitorear en tiempo real quién tiene cada libro.
-* Facilitar la expansión del catálogo de forma organizada.
+---
 
-# Mis Diagramas del Proyecto
-Aquí puedes ver el diseño de la base de datos:
+## 📝 1. Descripción
+Este proyecto consiste en el diseño de una **base de datos relacional** optimizada para administrar una biblioteca virtual. El sistema permite:
+* ✨ **Registro de autores** y su bibliografía.
+* 📖 **Catalogación de libros** con trazabilidad por ISBN.
+* 🔄 **Control de préstamos** dinámico para garantizar la disponibilidad.
 
-### Diagrama Entidad-Relación
-![Diagrama ER](./img/Captura%20de%20pantalla%202026-02-16%20152135.png)
+## 💡 2. Motivación
+El desarrollo de BiblioTech nace de la necesidad de resolver problemas críticos en sistemas manuales:
+* 📉 **Reducir la pérdida de stock** mediante registros digitales únicos.
+* ⏳ **Control de devoluciones** con alertas de vencimiento.
+* 🚀 **Escalabilidad** para expandir el catálogo sin perder el orden.
 
-### Diagrama UML
-![Diagrama UML](./img/Captura%20de%20pantalla%202026-02-17%20133315.png)
+---
+
+## 🏗️ 3. Arquitectura del Sistema
+A continuación, se presentan los modelos que fundamentan la estructura de datos del proyecto.
+
+### 🗺️ Modelo Entidad-Relación (ER)
+*Representación conceptual de las entidades y sus vínculos.*
+
+<p align="center">
+  <img src="./img/Captura%20de%20pantalla%202026-02-16%20152135.png" width="800" alt="Diagrama ER">
+</p>
+
+### 📐 Diagrama de Clases UML
+*Traducción técnica para la implementación en código.*
+
+<p align="center">
+  <img src="./img/Captura%20de%20pantalla%202026-02-17%20133315.png" width="800" alt="Diagrama UML">
+</p>
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+| Herramienta | Uso |
+| :--- | :--- |
+| **Lucidchart / Draw.io** | Diseño de diagramas |
+| **Markdown** | Documentación técnica |
+| **Git/GitHub** | Control de versiones |
+
+---
+> 🚀 *Proyecto desarrollado para la gestión eficiente de recursos educativos.*
