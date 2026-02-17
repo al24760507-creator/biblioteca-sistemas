@@ -9,14 +9,13 @@ La principal motivación de este desarrollo es resolver los problemas de pérdid
 * Monitorear en tiempo real quién tiene cada libro.
 * Facilitar la expansión del catálogo de forma organizada.
 
-## 4. Diagrama Entidad-Relación (E-R)
-Este diagrama representa la lógica del negocio y cómo interactúan las entidades principales mediante llaves primarias y foráneas.
 # Mis Diagramas del Proyecto
 
 Aquí puedes ver el diseño de la base de datos:
-diagrama ER./img/Captura de pantalla 2026-02-16 152135.png
 
+![Nombre Alternativo](./img/nombre-de-tu-archivo.png)
 # Mis Diagramas del Proyecto
 
 Aquí puedes ver el diseño de la base de datos:
-diagrama en UML./img/Captura de pantalla 2026-02-17 133315.png.png
+
+![Nombre Alternativo](./img/nombre-de-tu-archivo.png)
