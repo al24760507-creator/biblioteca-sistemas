@@ -14,4 +14,4 @@ Este diagrama representa la lógica del negocio y cómo interactúan las entidad
 Ndiagrama ER./img/Captura de pantalla 2026-02-16 152135.png
 # DIAGRAMA UML 
 
-UML./img/nombre-de-tu-archivo.png
+diagrama en UML./img/Captura de pantalla 2026-02-17 133315.png.png
