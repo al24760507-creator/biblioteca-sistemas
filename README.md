@@ -11,5 +11,3 @@ La principal motivación de este desarrollo es resolver los problemas de pérdid
 
 ## 4. Diagrama Entidad-Relación (E-R)
 Este diagrama representa la lógica del negocio y cómo interactúan las entidades principales mediante llaves primarias y foráneas.
-
-  
